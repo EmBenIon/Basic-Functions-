@@ -14,28 +14,28 @@
 <br />|
 <br />|
 <br />|_____________________________________________________________
-<br />|&emsp;    🟩GetElement_byindexSLL(SLL *List, INTEGER index)
+<br />|&emsp;    🟩GetElement_byindexSLL(SLL \*List, INTEGER index)
 <br />|&emsp;&emsp;        🟦*parameters description:*
-<br />|&emsp;&emsp;&emsp;            *List = The pointer of the head of the list in which the search is made
+<br />|&emsp;&emsp;&emsp;            \*List = The pointer of the head of the list in which the search is made
 <br />|&emsp;&emsp;&emsp;            index = The order number of the element wanted **(1 FOR THE FIRST, 2 FOR THE SECOND, ...)** (for integers lower than 1 it returns the first element and for integers bigger than the number of elements returns the last element)
 <br />|&emsp;&emsp;&emsp;
 <br />|&emsp;&emsp;        🟦*returns: element at index*
 <br />|
 <br />|
 <br />|_____________________________________________________________
-<br />|&emsp;    🟩DeleteElement_byindexSLL(SLL *List, INTEGER index)
+<br />|&emsp;    🟩DeleteElement_byindexSLL(SLL \*List, INTEGER index)
 <br />|&emsp;&emsp;        🟦*parameters description:*
-<br />|&emsp;&emsp;&emsp;            *List = The pointer of the head of the list in which the deletion is made
+<br />|&emsp;&emsp;&emsp;            \*List = The pointer of the head of the list in which the deletion is made
 <br />|&emsp;&emsp;&emsp;            index = The order number of the element wanted **(1 FOR THE FIRST, 2 FOR THE SECOND, ...)** (for integers lower than 1  it deletes the first element and for integers bigger than the number of elements doesn't deletes anything)
 <br />|&emsp;&emsp;&emsp;
 <br />|&emsp;&emsp;        🟦*returns: -*
 <br />|
 <br />|
 <br />|_____________________________________________________________
-<br />|&emsp;    🟩DeleteSLL(SLL *List)
+<br />|&emsp;    🟩DeleteSLL(SLL \*List)
 <br />|&emsp;&emsp;        🟦*parameters description:*
-<br />|&emsp;&emsp;&emsp;            *List = The pointer of the head of the list in which is deleted
-<br />|&emsp;&emsp;&emsp;            
+<br />|&emsp;&emsp;&emsp;            \*List = The pointer of the head of the list in which is deleted
+<br />|           
 <br />|&emsp;&emsp;        🟦*returns: -*
 <br />|        
 <br />|
@@ -60,9 +60,9 @@
 <br />|
 <br />|
 <br />|_____________________________________________________________
-<br />|&emsp;    🟩GetElement_byindexDLL(DLL *List, INTEGER index, short search_direction)
+<br />|&emsp;    🟩GetElement_byindexDLL(DLL \*List, INTEGER index, short search_direction)
 <br />|&emsp;&emsp;        🟦*parameters description:*
-<br />|&emsp;&emsp;&emsp;            *List = The pointer of the head/tail of the list in which the search is made
+<br />|&emsp;&emsp;&emsp;            \*List = The pointer of the head/tail of the list in which the search is made
 <br />|&emsp;&emsp;&emsp;            index = The order number of the element wanted **(1 FOR THE FIRST, 2 FOR THE SECOND, ...)** (for integers lower than 1 it returns the first element and for integers bigger than the number of elements returns the last element)
 <br />|&emsp;&emsp;&emsp;            search_direction = 1 for indexing and searching from the begining and 0 for reverse
 <br />|
@@ -72,7 +72,7 @@
 <br />|_____________________________________________________________
 <br />|&emsp;    🟩DeleteElement_byindexDLL(DLL *List, INTEGER index, short search_direction)
 <br />|&emsp;&emsp;        🟦*parameters description:*
-<br />|&emsp;&emsp;&emsp;            *List = The pointer of the head/tail of the list in which the deletion is made
+<br />|&emsp;&emsp;&emsp;            \*List = The pointer of the head/tail of the list in which the deletion is made
 <br />|&emsp;&emsp;&emsp;            index = The order number of the element wanted **(1 FOR THE FIRST, 2 FOR THE SECOND, ...)** (for integers lower than 1 it returns the first element and for integers bigger than the number of elements returns the last element)
 <br />|&emsp;&emsp;&emsp;            search_direction = 1 for indexing and searching from the begining and 0 for reverse
 <br />|
@@ -80,9 +80,9 @@
 <br />|
 <br />|
 <br />|_____________________________________________________________
-<br />|&emsp;    🟩DeleteDLL(DLL *List, INTEGER index, short search_direction)
+<br />|&emsp;    🟩DeleteDLL(DLL \*List, INTEGER index, short search_direction)
 <br />|&emsp;&emsp;        🟦*parameters description:*
-<br />|&emsp;&emsp;&emsp;            *List = The pointer of any element of the list in which is deleted
+<br />|&emsp;&emsp;&emsp;            \*List = The pointer of any element of the list in which is deleted
 <br />|
 <br />|&emsp;&emsp;        🟦*returns: -*
 <br />|
