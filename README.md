@@ -1,7 +1,7 @@
 Documentation
 
 SLL Documentation
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |   CreateSLL(INTEGER number_of_elements, INTEGER size_of_data_type, short fail_output)
 |        *parameters descripion:*
 |            number_of_elements = Number of elements in list
@@ -13,7 +13,7 @@ SLL Documentation
 |        *note:* This functions creates memory trash if allocation fails. Is highly recommended to stop the program if the function returns NULL (may be patched up in the future)
 |
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |    GetElement_byindexSLL(SLL *List, INTEGER index)
 |        *parameters description:*
 |            *List = The pointer of the head of the list in which the search is made
@@ -22,7 +22,7 @@ SLL Documentation
 |        *returns: element at index*
 |
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |    DeleteElement_byindexSLL(SLL *List, INTEGER index)
 |        *parameters description:*
 |            *List = The pointer of the head of the list in which the deletion is made
@@ -31,7 +31,7 @@ SLL Documentation
 |        *returns: -*
 |
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |    DeleteSLL(SLL *List)
 |        *parameters description:*
 |            *List = The pointer of the head of the list in which is deleted
@@ -39,7 +39,7 @@ SLL Documentation
 |        *returns: -*
 |        
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 
 
 
@@ -47,7 +47,7 @@ SLL Documentation
 
 
 DLL Documentation
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |   CreateDLL(INTEGER number_of_elements, INTEGER size_of_data_type, short fail_output)
 |        *parameters descripion:*
 |            number_of_elements = Number of elements in list
@@ -59,7 +59,7 @@ DLL Documentation
 |        *note:* This functions creates memory trash if allocation fails. Is highly recommended to stop the program if the function returns NULL (may be patched up in the future)
 |
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |    GetElement_byindexDLL(DLL *List, INTEGER index, short search_direction)
 |        *parameters description:*
 |            *List = The pointer of the head/tail of the list in which the search is made
@@ -69,7 +69,7 @@ DLL Documentation
 |        *returns: element at index*
 |
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |    DeleteElement_byindexDLL(DLL *List, INTEGER index, short search_direction)
 |        *parameters description:*
 |            *List = The pointer of the head/tail of the list in which the deletion is made
@@ -79,7 +79,7 @@ DLL Documentation
 |        *returns: element at index*
 |
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
 |    DeleteDLL(DLL *List, INTEGER index, short search_direction)
 |        *parameters description:*
 |            *List = The pointer of any element of the list in which is deleted
@@ -87,4 +87,4 @@ DLL Documentation
 |        *returns: -*
 |
 |
-|___________________________________________________________________________________________________________________________________
+|_____________________________________________________________
