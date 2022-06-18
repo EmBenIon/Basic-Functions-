@@ -36,9 +36,9 @@
 <br />|&emsp;&emsp;        🟦*parameters description:*
 <br />|&emsp;&emsp;&emsp;            \*List = The pointer of the head of the list in which is deleted
 <br />|           
-<br />|&emsp;&emsp;        🟦*returns: -*
+      |&emsp;&emsp;        🟦*returns: -*
 <br />|        
-<br />|
+      |
 <br />|_____________________________________________________________
 <br />
 <br />
